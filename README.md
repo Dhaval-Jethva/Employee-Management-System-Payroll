@@ -5,6 +5,14 @@
 > A web-based Employee Management System with payroll, attendance, salary calculation, reporting.
 
 ---
+## 📞 Contact Me
+
+If you're interested in a similar solution or have any questions, feel free to reach out:
+
+- **Email**: [webdev.dhaval@gmail.com](mailto:webdev.dhaval@gmail.com)
+- **Phone/WhatsApp**: +91 8866768575
+- **LinkedIn**: [Dhaval Jethva](https://www.linkedin.com/in/dhaval-jethva/)
+
 
 ## 📌 Project Overview
 
@@ -159,7 +167,7 @@ The salary report supports separate calculation of:
 Professional tax and advance salary deductions are also included in salary slip calculations.
 
 ---
-<!--
+
 ## 💵 Advance Salary Management
 
 The system includes functionality to manage advance salary information.
@@ -173,7 +181,6 @@ The system includes functionality to manage advance salary information.
 ![Advance Salary](images/advance-salary.png)
 
 ---
--->
 
 ## 📈 Employee Additional Wage Management
 
@@ -367,3 +374,11 @@ Possible customization areas include:
 This project can be customized and extended based on your organization's employee management, attendance, payroll, reporting, and API requirements.
 
 **Custom modules, workflows, reports, and integrations can be developed according to business requirements.**
+
+## 📞 Contact Me
+
+If you're interested in a similar solution or have any questions, feel free to reach out:
+
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Phone/WhatsApp**: +1234567890
+- **LinkedIn**: [Your Name](https://linkedin.com/in/your-profile)
