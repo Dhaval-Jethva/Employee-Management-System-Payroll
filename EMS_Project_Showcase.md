@@ -1,8 +1,8 @@
 # Employee Management System + Payroll (EMS)
 
 > **Portfolio Project Showcase**
-
-> A web-based Employee Management System with payroll, attendance, salary calculation, reporting.
+>
+> A web-based Employee Management System with payroll, attendance, salary calculation, reporting, and employee APIs.
 
 ---
 
@@ -18,20 +18,19 @@ The system brings employee management, attendance, payroll-related calculations,
 
 | Area | Technology |
 |---|---|
-| Frontend | Laravel Blade templates with Vite asset bundling, Bootstrap-based theme |
-| Backend / Database | Laravel 10.x, PHP 8.1+, MySQL |
-| Authentication | Laravel Sanctum (API token-based), Laravel Session (web) |
+| Frontend | Bootstrap + Laravel |
+| Backend / Database | MySQL |
+| Authentication | JWT |
 
 ---
 
-## ⭐ Key Functional Areas
+# ⭐ Key Functional Areas
 
 The system includes the following major functional areas:
 
 - Employee Management
 - Organization & HR Masters
 - Shift & Holiday Management
-- Leave Management
 - Attendance Management
 - Machine Data Synchronization
 - Salary & Payroll Management
@@ -40,25 +39,30 @@ The system includes the following major functional areas:
 - Salary History
 - Payroll & Attendance Reports
 - Employee Salary Slip
+- Employee APIs
 
 ---
 
-## 👥 Employee Management
+# 👥 Employee Management
 
 The Employee Management module provides functionality for maintaining employee information within the system.
 
 ### Features
+
 - Add new employee
 - Manage employee records
 - Employee master
 - Employee-related management
 
 ### Screenshot
-![Employee Management](images/employee-management.png)
+
+> **Paste Employee Management screenshot here**
+
+`![Employee Management](images/employee-management.png)`
 
 ---
 
-## 🏢 HR & Organization Masters
+# 🏢 HR & Organization Masters
 
 The system provides centralized master management for important employee and organizational information.
 
@@ -84,36 +88,25 @@ Manage professional tax-related configuration.
 Manage different wage types used for employee salary calculations.
 
 ### Screenshots
-![Department Management](images/department-management.png)
-![Designation Management](images/designation-management.png)
-![Shift Management](images/shift-management.png)
-![Holiday Management](images/holiday-management.png)
-![Professional Tax Management](images/professional-tax.png)
-![Wage Types Management](images/wage-types.png)
+
+> **Paste Department / Designation / Shift / Holiday screenshots here**
+
+`![Department Management](images/department-management.png)`
+
+`![Designation Management](images/designation-management.png)`
+
+`![Shift Management](images/shift-management.png)`
+
+`![Holiday Management](images/holiday-management.png)`
 
 ---
 
-## 🏖️ Leave Management
-
-The system provides comprehensive leave management functionality, including leave types and leave policies.
-
-### Leave Types Master
-Manage different types of leaves (e.g., sick leave, casual leave, earned leave).
-
-### Leave Policies Master
-Define leave policies such as leave entitlement, carry forward rules, encashment policies, etc.
-
-### Screenshots
-![Leave Types Management](images/leave-types.png)
-<!--![Leave Policies Management](images/leave-policies.png)-->
-
----
-
-## ⏱️ Attendance Management
+# ⏱️ Attendance Management
 
 The system includes attendance-related functionality for tracking employee attendance information.
 
 ### Features
+
 - Machine data synchronization
 - Attendance reports
 - Missing punch reporting
@@ -121,23 +114,31 @@ The system includes attendance-related functionality for tracking employee atten
 - Attendance count used in salary calculations
 
 ### Attendance Reports
+
 The system includes:
+
 - Attendance Report
 - Missing Punch Report
 - Employee Attendance Report
 
 ### Screenshots
-![Attendance Report](images/attendance-report.png)
-![Missing Punch Report](images/missing-punch-report.png)
-![Employee Attendance Report](images/employee-attendance-report.png)
+
+> **Paste attendance screenshots here**
+
+`![Attendance Report](images/attendance-report.png)`
+
+`![Missing Punch Report](images/missing-punch-report.png)`
+
+`![Employee Attendance Report](images/employee-attendance-report.png)`
 
 ---
 
-## 💰 Payroll & Salary Management
+# 💰 Payroll & Salary Management
 
 The payroll functionality supports salary-related calculations and salary history management.
 
 ### Features
+
 - Manage and calculate salary history
 - Salary calculation
 - Petrol allowance calculation
@@ -152,6 +153,7 @@ The payroll functionality supports salary-related calculations and salary histor
 ## 🧾 Salary Calculation
 
 The salary report supports separate calculation of:
+
 - Salary
 - Petrol allowance
 - Overtime
@@ -159,48 +161,62 @@ The salary report supports separate calculation of:
 Professional tax and advance salary deductions are also included in salary slip calculations.
 
 ### Screenshot
-![Salary / Payroll Calculation](images/payroll.png)
+
+> **Paste Salary / Payroll screenshot here**
+
+`![Payroll](images/payroll.png)`
 
 ---
-<!--
-## 💵 Advance Salary Management
+
+# 💵 Advance Salary Management
 
 The system includes functionality to manage advance salary information.
 
 ### Features
+
 - Manage advance salary entries
 - Advance salary deduction during salary slip calculation
 - Employee advance salary entry through API
 
 ### Screenshot
-![Advance Salary](images/advance-salary.png)
+
+> **Paste Advance Salary screenshot here**
+
+`![Advance Salary](images/advance-salary.png)`
 
 ---
--->
 
-## 📈 Employee Additional Wage Management
+# 📈 Employee Additional Wage Management
 
 The system provides functionality to manage additional wages for employees.
 
 Wage types are maintained through the **Wage Types Master**, while employee additional wage information can be managed separately.
 
 ### Screenshot
-![Additional Wage](images/additional-wage.png)
+
+> **Paste Additional Wage screenshot here**
+
+`![Additional Wage](images/additional-wage.png)`
 
 ---
 
-## 📊 Dashboard & Reports
+# 📊 Dashboard & Reports
 
 The dashboard provides visibility into employee and attendance-related information.
 
 ### Dashboard Reporting
+
 The system includes reporting for:
+
 - Late Comers
 - Early Leavers
-- Detailed dashboard reporting is also available.
+
+Detailed dashboard reporting is also available.
 
 ### Payroll & Attendance Reporting
+
 Reports include:
+
 - Holidays count in salary report
 - Attendance count
 - Total earnings
@@ -211,23 +227,47 @@ Reports include:
 - Advance salary deduction
 
 ### Screenshots
-![Dashboard](images/dashboard.png)
-![Dashboard Report](images/dashboard-report.png)
+
+> **Paste Dashboard screenshot here**
+
+`![Dashboard](images/dashboard.png)`
+
+> **Paste Dashboard Report screenshot here**
+
+`![Dashboard Report](images/dashboard-report.png)`
 
 ---
 
-## 🔄 Functional Workflow
+# 📱 Employee APIs
+
+The system provides APIs for employee-facing functionality.
+
+### Available APIs
+
+| API | Purpose |
+|---|---|
+| Login API | Employee authentication |
+| Punch API | Login / Logout punch functionality |
+| Employee Dashboard API | Employee dashboard data |
+| Employee Advance Salary API | Employee advance salary entry |
+| Report Month API | Monthly report-related functionality |
+
+### API Authentication
+
+The system uses **JWT authentication**.
+
+---
+
+# 🔄 Functional Workflow
 
 The major system flow can be represented as:
 
-```
+```text
 Employee & HR Masters
         ↓
 Employee Management
         ↓
 Shift / Holiday Configuration
-        ↓
-Leave Management Configuration
         ↓
 Attendance / Machine Data
         ↓
@@ -244,57 +284,62 @@ Payroll / Employee Reports
 
 ---
 
-## 🖥️ UI Showcase
+# 🖥️ UI Showcase
 
 Use this section to showcase the most important screens of the system.
 
 ### 1. Dashboard
-![Dashboard](images/dashboard.png)
+
+`![Dashboard](images/dashboard.png)`
 
 ### 2. Dashboard Report
-![Dashboard Report](images/dashboard-report.png)
+
+`![Dashboard Report](images/dashboard-report.png)`
 
 ### 3. Add New Employee
-![Add Employee](images/add-employee.png)
+
+`![Add Employee](images/add-employee.png)`
 
 ### 4. Employee Management
-![Employee Management](images/employee-management.png)
+
+`![Employee Management](images/employee-management.png)`
 
 ### 5. Department Management
-![Department Management](images/department-management.png)
+
+`![Department Management](images/department-management.png)`
 
 ### 6. Designation Management
-![Designation Management](images/designation-management.png)
+
+`![Designation Management](images/designation-management.png)`
 
 ### 7. Holiday Management
-![Holiday Management](images/holiday-management.png)
+
+`![Holiday Management](images/holiday-management.png)`
 
 ### 8. Shift Management
-![Shift Management](images/shift-management.png)
 
-### 9. Leave Types Management
-![Leave Types Management](images/leave-types.png)
+`![Shift Management](images/shift-management.png)`
 
-### 10. Leave Policies Management
-![Leave Policies Management](images/leave-policies.png)
+### 9. Attendance Report
 
-### 11. Attendance Report
-![Attendance Report](images/attendance-report.png)
+`![Attendance Report](images/attendance-report.png)`
 
-### 12. Missing Punch Report
-![Missing Punch Report](images/missing-punch-report.png)
+### 10. Missing Punch Report
 
-### 13. Employee Attendance Report
-![Employee Attendance Report](images/employee-attendance-report.png)
+`![Missing Punch Report](images/missing-punch-report.png)`
+
+### 11. Employee Attendance Report
+
+`![Employee Attendance Report](images/employee-attendance-report.png)`
 
 ---
 
-## 🎯 Business Value
+# 🎯 Business Value
 
 The EMS platform provides a centralized system for:
+
 - Managing employee information
 - Managing HR and organizational masters
-- Managing leave types and policies
 - Monitoring attendance
 - Handling attendance-related reports
 - Supporting payroll and salary calculations
@@ -305,16 +350,16 @@ The EMS platform provides a centralized system for:
 
 ---
 
-## 🔧 Customization Possibilities
+# 🔧 Customization Possibilities
 
 The system can be extended or customized according to specific business requirements.
 
 Possible customization areas include:
+
 - Additional employee management modules
 - Custom payroll rules
 - Custom salary components
 - Additional attendance rules
-- Custom leave policies and types
 - Custom reports
 - Additional employee APIs
 - New HR masters
@@ -323,7 +368,7 @@ Possible customization areas include:
 
 ---
 
-## 📋 Module Summary
+# 📋 Module Summary
 
 | Module | Included Functionality |
 |---|---|
@@ -334,9 +379,7 @@ Possible customization areas include:
 | Holiday | Holiday master management |
 | Professional Tax | Professional tax master |
 | Wage Types | Wage type management |
-| Leave Types | Leave type management |
-| Leave Policies | Leave policy management |
-| Machine Data Synchronization | Attendance machine synchronization |
+| Machine Data | Attendance machine synchronization |
 | Additional Wage | Employee additional wage management |
 | Advance Salary | Advance salary management and deduction |
 | Salary History | Manage & calculate salary history |
@@ -348,18 +391,18 @@ Possible customization areas include:
 
 ---
 
-## 🚀 Project Highlights
+# 🚀 Project Highlights
 
 - Employee management
 - Payroll and salary processing
 - Attendance management
 - HR master management
-- Leave management (types and policies)
 - Salary calculation
 - Earnings and deduction tracking
 - Employee salary slips
 - Attendance and payroll reporting
-- Laravel Sanctum-based API authentication
+- JWT-based API authentication
+- Employee-facing APIs
 
 ---
 
