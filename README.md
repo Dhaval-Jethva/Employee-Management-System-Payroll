@@ -88,7 +88,7 @@ Manage different wage types used for employee salary calculations.
 ![Designation Management](images/designation-management.png)
 ![Shift Management](images/shift-management.png)
 ![Holiday Management](images/holiday-management.png)
-![Professional Tax Management](images/professional-tax.png)
+<!-- ![Professional Tax Management](images/professional-tax.png) -->
 ![Wage Types Management](images/wage-types.png)
 
 ---
@@ -157,9 +157,6 @@ The salary report supports separate calculation of:
 - Overtime
 
 Professional tax and advance salary deductions are also included in salary slip calculations.
-
-### Screenshot
-![Salary / Payroll Calculation](images/payroll.png)
 
 ---
 <!--
@@ -255,7 +252,7 @@ Use this section to showcase the most important screens of the system.
 ![Dashboard Report](images/dashboard-report.png)
 
 ### 3. Add New Employee
-![Add Employee](images/add-employee.png)
+<!-- ![Add Employee](images/add-employee.png) -->
 
 ### 4. Employee Management
 ![Employee Management](images/employee-management.png)
