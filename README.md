@@ -275,8 +275,10 @@ Use this section to showcase the most important screens of the system.
 ### 9. Leave Types Management
 ![Leave Types Management](images/leave-types.png)
 
+<!--
 ### 10. Leave Policies Management
 ![Leave Policies Management](images/leave-policies.png)
+-->
 
 ### 11. Attendance Report
 ![Attendance Report](images/attendance-report.png)
