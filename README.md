@@ -375,10 +375,8 @@ This project can be customized and extended based on your organization's employe
 
 **Custom modules, workflows, reports, and integrations can be developed according to business requirements.**
 
-## 📞 Contact Me
-
 If you're interested in a similar solution or have any questions, feel free to reach out:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **Phone/WhatsApp**: +1234567890
-- **LinkedIn**: [Your Name](https://linkedin.com/in/your-profile)
+- **Email**: [webdev.dhaval@gmail.com](mailto:webdev.dhaval@gmail.com)
+- **Phone/WhatsApp**: +91 8866768575
+- **LinkedIn**: [Dhaval Jethva](https://www.linkedin.com/in/dhaval-jethva/)
